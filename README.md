@@ -8,7 +8,7 @@ Fit by science is an educational and lifestyle platform that helps people:
 - Learn how supplements work - based on real research , not marketing.
 - Train smarter using physiology, not fads.
 _______________________________________________________________________________________________________________
-## Pages im this project
+## Pages in this project
 | File | Page name | Description |
 |------|-----------|-------------|
 | 'index.html' | Home | Introduction +navigation |
