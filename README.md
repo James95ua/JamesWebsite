@@ -12,7 +12,7 @@ ________________________________________________________________________________
 ## Pages in this project
 | File | Page name | Description |
 |------|-----------|-------------|
-| 'index.html' | Home | Introduction +navigation |
+| 'index.html' | Fit by Science with James | Introduction +navigation |
 | 'Nutrition.html' | Nutrition Section | Explains how food affects  perfomance & heathy tips  (tables, images, lists) |
 | 'Supplements.html' | Supplements Section | Science-based supplemnt breakdown (form + images) |
 
