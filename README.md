@@ -12,7 +12,7 @@ ________________________________________________________________________________
 | File | Page name | Description |
 |------|-----------|-------------|
 | 'index.html' | Home | Introduction +navigation |
-| 'Nutrition.html' | Nutrition Section | Explains how food affects  perfomance (tables, images, lists) |
+| 'Nutrition.html' | Nutrition Section | Explains how food affects  perfomance & heathy tips  (tables, images, lists) |
 | 'Supplements.html' | Supplements Section | Science-based supplemnt breakdown (form + images) |
 
 ## How to view the Website
@@ -23,6 +23,6 @@ ________________________________________________________________________________
 ## Technologies Used 
 - HTML5 (content + structure)
 
-- ggg
+- 
 
   
