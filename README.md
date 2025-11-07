@@ -8,9 +8,19 @@ Fit by science is an educational and lifestyle platform that helps people:
 - Learn how supplements work - based on real research , not marketing.
 - Train smarter using physiology, not fads.
 _______________________________________________________________________________________________________________
-## Tables 
-**Table 1**:
-Nutrition Section 
-Table 2: 
-Supplements Section
+## Pages im this project
+| File | Page name | Description |
+|------|-----------|-------------|
+| 'index.html' | Home | Introduction +navigation |
+| 'Nutrition.html' | Nutrition Section | Explains how food affects  perfomance (tables, images, lists) |
+| 'Supplements.html' | Supplements Section | Science-based supplemnt breakdown (form + images) |
 
+## How to view the Website
+1. Download or clone this repository
+2. Open the file ** index.html ** in any web browser
+3. Use the navigation menu to move between pages
+
+## Technologies Used 
+- HTML5 (content + structure)
+
+  
