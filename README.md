@@ -22,7 +22,7 @@ ________________________________________________________________________________
 
 ## Technologies Used 
 - HTML5 (content + structure)
-
-- 
+- CSS3 (styling & layout)
+- Github (Version control & hosting)
 
   
