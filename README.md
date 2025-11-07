@@ -13,10 +13,4 @@ ________________________________________________________________________________
 Nutrition Section 
 Table 2: 
 Supplements Section
-Table 3:
-Training Programme Section
-Table 4:
-Science-Based Articles
-Table 5:
-Lifestyle Tools 
 
