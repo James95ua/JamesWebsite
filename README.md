@@ -1,6 +1,7 @@
 # Fit by Science with James
-Welcome to Fit by Science - a website dedicated to evidence -based fitness, nutrition, and supplementation.
-Our goal is to bridge the gap beetween real science and practical application in everyday health and training.
+Welcome to Fit by Science - a website dedicated to evidence -based nutrition, and supplementation.
+Our goal is to bridge the gap beetween real science and practical application of supplements and nutrition in day to day life and creation of healthy lifestyle movement.
+As we all know that we live in an era where enviromental factors (air polution, low quality food, chronic stress) are affecting us immensely, but heads up we are here to share some valuable insigths that can profoundly mitigate the impact of those negative factors on us! Thank you for being a part of our journey it's much appreciated!
 _______________________________________________________________________________________________________________
 ## Overview 
 Fit by science is an educational and lifestyle platform that helps people: 
