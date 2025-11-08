@@ -30,6 +30,5 @@ ________________________________________________________________________________
 Add info
 __________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## What did I learned
-First and foremost I've learned that HTML file follow a consistent structure that is essential to know
-__________________________________________________________________________________________________________________________________________________________________________________________________________________
+First and foremost I've learned that HTML file follow a consistent structure that is essentialfor web creation. Every tag is a specific mark up for content. HTML file should start from declaration of document.
   
