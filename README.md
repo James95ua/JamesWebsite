@@ -20,6 +20,8 @@ ________________________________________________________________________________
 1. Download or clone this repository
 2. Open the file ** index.html ** in any web browser
 3. Use the navigation menu to move between pages
+4. https://github.com/James95ua
+5. https://github.com/James95ua/JamesWebsite
 ______________________________________________________________________________________________________________________________________________________________________________________________________
 ## Technologies Used 
 - HTML5 (content + structure)
