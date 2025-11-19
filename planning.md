@@ -87,3 +87,9 @@ CSS was created to separate content and presentation. Instead of using many pres
 5. `<h1>`–`<h3>` – for clear headings and structure.  
 6. `<a>` – for links to other pages and external resources.
 
+### 10. CSS properties used 
+
+1. `color` and `background-color` – to set text colour and background colours for sections and buttons.  
+2. `font-size` and `line-height` – to control readability of text.
+3. `margin` and `padding` – to create spacing around and inside elements.  
+4. `border-radius` – to make buttons and cards have rounded corners.
