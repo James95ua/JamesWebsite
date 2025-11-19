@@ -31,7 +31,7 @@
 
 - I use a sticky header at the top, so the navigation stays visible when the user scrolls.
 - The navigation bar has the logo/title on the left and links on the right, using flexbox for alignment.
-- The main content is in a single column with a max-width of 600px and margin: 0 auto 20px; so text lines are not too wide and stay centered on the page.
+- The main content is in a single column with a max-width of 1100px and margin: 0 auto 20px; so text lines are not too wide and stay centered on the page.
 - The subtitle under the main heading is centred and has extra margin to create clear visual hierarchy.
 - The footer is at the bottom with centred text and padding to give it some breathing space.
 
