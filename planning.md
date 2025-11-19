@@ -18,8 +18,7 @@
   - Short text about me  
   - How to contact me (email or form)
   ## 4. Design decisions (color scheme, layout, typography)
-
-### Colour scheme
+  ### Colour scheme
 
 - Main page background: #f4f3ee – a very light neutral colour that makes text easy to read.
 - Header background: #0f173a – a dark navy colour that creates strong contrast and makes the site title stand out.
@@ -41,4 +40,49 @@
 - The base font size is 16px with line-height: 1.6 for comfortable reading.
 - The main heading (`h1`) is much larger (`2.5rem`) and centre aligned to make the site title the first thing the user sees.
 - Subtitles and section headings (`h2`) are slightly smaller but still use the same orange colour to keep the visual style consistent.
+
+## 5. Navigation structure and why I chose it
+
+Navigation is a simple horizontal menu at the top of every page:
+
+- Supplementation, Nutition, Fat-loss tips, and More!
+- Nutrition
+- Supplements
+Ichose this structure, because:
+- The menu is always located in the same place easy to navigate
+- The list is small so it wont be confusing to the user
+- Every link leads to a seperate topic, that's why i kept them seperate
+
+- ## 6. Sketches / wireframes
+
+I plan to draw simple wireframes on paper:
+
+- One sketch for the home page (header + hero text + main content + footer)
+- One sketch for a content page 
+
+I will photograph these sketches and add the images to my repository in a wireframes/ folder, then link to them here
+
+## 7. Technologies and tools
+
+I plan to use:
+- HTML5 for page structure  
+- CSS3 for styling (colours, layout, typography)  
+- A simple text editor (Notepad)  
+- A web browser (Chrome/Edge) to test the site
+
+## 8. Brief discussion of HTML and CSS evolution
+
+HTML started as a very simple language for linking documents on the web. Early versions mainly supported text, links and basic structure. Over time, HTML added more semantic elements like <header>, <nav>, <main> and <footer> to make pages easier to understand for browsers and screen readers.
+
+CSS was created to separate content and presentation. Instead of using many presentational tags in HTML, designers could use CSS to control colours, fonts and layout. Modern CSS includes features like flexbox and grid, which make responsive layouts much easier to build for different screen sizes
+- GitHub to store the code and documentation
+
+## 9. HTML tags I plan to use effectively
+
+1. `<header>` – to wrap the top part of the page with the logo and navigation.  
+2. `<nav>` – to contain the main navigation links.  
+3. `<main>` – to wrap the main content of each page.  
+4. `<section>` – to divide content into logical sections.  
+5. `<h1>`–`<h3>` – for clear headings and structure.  
+6. `<a>` – for links to other pages and external resources.
 
