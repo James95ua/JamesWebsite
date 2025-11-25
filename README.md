@@ -29,7 +29,7 @@ ________________________________________________________________________________
 - Github (Version control & hosting)
 _______________________________________________________________________________________________________________________________________________________________________________________________________________
 ## Credits and attributions for resources
-I took a peace of code of Aaron Jason HTML and CSS tutorial 
+I took a peace of HTML cod e(for index.html stiky navbar in the heeader section)of Aaron Jason HTML and CSS tutorial https://deweydex.github.io/WADB_Tutorials/index.html 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## What did I learned
 First and foremost I've learned that HTML file follow a consistent structure that is essentialfor web creation. Every tag is a specific mark up for content. HTML file should start from declaration of document. Learned that headings have hierarchy. To add links you need to use <a> tags. Semantic HTML uses tags that carry meaning about their content, not just styling instructions. This creates more accessible websites that work better with assistive technologies, search engines, and other automated systems. HTML5 provides semantic elements like header, nav, main, article, section, aside, and footer that represent common page structures and content types. 
