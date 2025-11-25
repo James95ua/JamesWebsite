@@ -1,1 +1,329 @@
 
+body { 
+  font-family: Arial, Helvetica, sans-serif; 
+  background-color: #F4F3EE; 
+  color:#333;  
+  margin: 0; 
+  padding: 1px;
+}
+
+/* HEADER */
+
+header {
+  background-color:#0f173a;              /* Navy background */
+  border-bottom: 0.25px solid var(--border-color);  /* Subtle bottom border */
+  position: sticky;  /* Sticks to top when scrolling - stays visible */
+  top: 0;            /* Position at top of viewport when sticky */
+  z-index: 100;      /* Ensures header appears above other content */
+  box-shadow: var(--shadow);  /* Adds shadow below header for depth */
+}
+
+.header-image {
+  max-width: 375px;   
+  height: auto;       
+  display: block;
+  margin: 0 auto 2.5rem; 
+  border-radius: 50px;  
+}
+
+.navbar {
+  padding: 0.25rem 0;
+  margin-top: 0px;
+}
+
+.site-header-content {
+  margin-top: 0;
+}
+
+header h1 {
+  margin: 0.75rem 0;
+}
+
+/* Контейнер в шапке */
+
+.navbar .container {
+  display: flex;                      /* Creates flexible layout */
+  align-items: center;                /* Vertically centers all items */
+  gap: 0.25rem;                       /* Space between menu button and logo */
+  position: relative;                 /* Allows absolute positioning of right-side elements */
+  flex-direction: column;             /* Логотип + текст + меню вертикально */
+}
+
+/* Подзаголовок под H1 */
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 0rem;
+  opacity: 0.95;
+  color: #D97757;
+} 
+
+/* Заголовки и текст */
+
+h1 {
+  font-size: 2.0rem;        /* было 2.0 rem (с пробелом – не работало) */
+  color: #d97757;  
+  text-align: center; 
+  margin-bottom: 0.50rem; 
+}
+
+p {
+  font-size: 16px;          /* было 16 без px – не работало */
+  color:#111827; 
+  line-height: 1.6; 
+  max-width:1100px; 
+  margin: 0 auto 20px;
+  text-align: center;
+} 
+
+/* Ссылки (общие) */
+
+a { 
+  color: #2563eb; 
+  text-decoration: underline; 
+}
+
+a:hover { 
+  color: #2563eb; 
+  text-decoration: none;
+} 
+
+h2 {
+  font-size: 22px; 
+  color: #D97757;  
+  text-align: center; 
+  margin-bottom: 16px; 
+  margin-top: 12px;
+}
+
+h3 {
+  font-size:16px;
+  margin-top: 0px;   
+}
+
+/* ===== НАВИГАЦИЯ (Homepage / Supplements / Nutrition) ===== */
+
+.navbar nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5rem 0 0;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.navbar nav li {
+  margin: 0;
+}
+
+.navbar nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.navbar nav a:hover {
+  text-decoration: underline;
+}
+
+.navbar nav a.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Логотип в шапке */
+
+.logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.75rem;
+  display: block;
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+
+.logo:hover {
+  text-decoration: underline;
+}
+
+/* ===== ОСНОВНОЙ КОНТЕНТ ===== */
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 1rem 3rem;
+  background-color: #F4F3EE;
+}
+
+main section {
+  margin-bottom: 2rem;
+}
+
+#supplements-intro p {
+  margin-bottom: 0.75rem;
+}
+
+/* ===== КАРТОЧКИ С ДОБАВКАМИ (GRID) ===== */
+
+.supplement-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.supplement-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #ffffff;
+}
+
+.supplement-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.supplement-card p {
+  margin: 0 0 0.5rem;
+}
+
+.supplement-card ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+/* На более широких экранах – две колонки */
+
+@media (min-width: 768px) {
+  .supplement-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ===== ТАБЛИЦЫ НА СТРАНИЦЕ SUPPLEMENTS ===== */
+
+.supplements-table-wrapper {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  overflow-x: auto; /* На случай маленьких экранов */
+}
+
+.supplements-table-wrapper h3 {
+  margin-bottom: 0.5rem;
+}
+
+.supplements-table-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  font-size: 0.95rem;
+}
+
+.supplements-table-wrapper caption {
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.supplements-table-wrapper th,
+.supplements-table-wrapper td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.supplements-table-wrapper th {
+  background-color: #e5e5e5;
+}
+
+/* ===== БЛОК SAFETY / FAQ ===== */
+
+#safety ul {
+  margin-top: 0.5rem;
+  padding-left: 1.1rem;
+}
+
+#faq h3 {
+  margin-top: 0.75rem;
+}
+
+/* ===== ASIDE (Related links) ===== */
+
+aside {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+aside h3 {
+  margin-top: 0;
+}
+
+aside ul {
+  margin-top: 0.5rem;
+  padding-left: 1.1rem;
+}
+
+/* ===== CONTACT / FOOTER ===== */
+
+#contact {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #0f173a;
+  color: #fff;
+}
+
+#contact form {
+  margin-top: 0.5rem;
+  color: #D97757;
+}
+
+#contact label {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: #D97757;
+}
+
+#contact p {
+  color: #D97757;
+}
+
+/* На Homepage у тебя email, на Supplements — text.
+   Стилизуем оба варианта одинаково. */
+
+#contact input[type="email"],
+#contact input[type="text"] {
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+#contact button {
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: #D97757;
+  color: #fff;
+  border-radius: 4px;
+}
+
+#contact button:hover {
+  opacity: 0.9;
+}
+
+footer {
+  background-color: var(--text-color);
+  color: rgb(200, 109, 12);
+  text-align: center;
+  padding: 0.25rem 0;
+  margin-top: 10rem;
+}
+
