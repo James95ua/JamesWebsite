@@ -22,7 +22,7 @@ ________________________________________________________________________________
 3. Use the navigation menu to move between pages
 4. https://github.com/James95ua
 5. https://github.com/James95ua/JamesWebsite
-6. Live link 
+6. Live link https://james95ua.github.io/JamesWebsite/
 ______________________________________________________________________________________________________________________________________________________________________________________________________
 ## Technologies Used 
 - HTML5 (content + structure)
