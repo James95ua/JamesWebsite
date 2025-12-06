@@ -4,7 +4,7 @@
   - People who are interested in fitness and healthy eating
   - Beginners who want simple guidance on supplementation
   - Potential employers who wants to see my skills in HTML and CSS
-### 3. What I plan to include on each page and why:
+### 3. What I plan to include on each page and why: 
 - **Home page (index.html)**
 - Big title and subtitle with a short message about the site
 - Introductiory paragraphs that explaine the purpose of the site
