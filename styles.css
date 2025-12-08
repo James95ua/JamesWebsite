@@ -24,7 +24,7 @@ header {
   display: block;
   margin: 0 auto 2.5rem; 
   border-radius: 50px;  
-} 
+}
 
 .navbar {
   padding: 0.25rem 0;
@@ -39,7 +39,7 @@ header h1 {
   margin: 0.75rem 0;
 }
 
-/* Контейнер в шапке */
+/* Container in the header */
 
 .navbar .container {
   display: flex;                      /* Creates flexible layout */
@@ -49,7 +49,7 @@ header h1 {
   flex-direction: column;             /* Логотип + текст + меню вертикально */
 }
 
-/* Подзаголовок под H1 */
+/* Subtitle under H1 */
 
 .hero-subtitle {
   font-size: 1.25rem;
@@ -59,17 +59,17 @@ header h1 {
   color: #D97757;
 } 
 
-/* Заголовки и текст */
+/* Headings and text*/
 
 h1 {
-  font-size: 2.0rem;        /* было 2.0 rem (с пробелом – не работало) */
+  font-size: 2.0rem;        
   color: #d97757;  
   text-align: center; 
   margin-bottom: 0.50rem; 
 }
 
 p {
-  font-size: 16px;          /* было 16 без px – не работало */
+  font-size: 16px;         
   color:#111827; 
   line-height: 1.6; 
   max-width:1100px; 
@@ -77,10 +77,10 @@ p {
   text-align: center;
 } 
 
-/* Ссылки (общие) */
+/* Link (General) */
 
 a { 
-  color: #2563eb; 
+  color: #eba925; 
   text-decoration: underline; 
 }
 
