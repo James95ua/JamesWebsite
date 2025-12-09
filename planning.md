@@ -74,8 +74,62 @@ I plan to use:
 ## 8. Brief discussion of HTML and CSS evolution
 
 HTML started as a very simple language for linking documents on the web. Early versions mainly supported text, links and basic structure. Over time, HTML added more semantic elements like <header>, <nav>, <main> and <footer> to make pages easier to understand for browsers and screen readers.
+***HTML version timeline***
+**HTML 2**
+November 24, 1995
+HTML 2.0 was published as RFC 1866. Supplemental RFCs added capabilities:
+November 25, 1995: RFC 1867 (form-based file upload)
+May 1996: RFC 1942 (tables)
+August 1996: RFC 1980 (client-side image maps)
+January 1997: RFC 2070 (internationalization)
+
+**HTML 3**
+**January 14, 1997**
+HTML 3.2[16] was published as a W3C Recommendation. It was the first version developed and standardized exclusively by the W3C, as the IETF had closed its HTML Working Group on September 12, 1996.[17]
+Initially code-named "Wilbur",[18] HTML 3.2 dropped math formulas entirely, reconciled overlap among various proprietary extensions and adopted most of Netscape's visual markup tags. Netscape's blink element and Microsoft's marquee element were omitted due to a mutual agreement between the two companies.[14] A markup for mathematical formulas similar to that of HTML was standardized 14 months later in MathML.
+
+**HTML 4**
+**December 18, 1997**
+HTML 4.0 was published as a W3C Recommendation. It offers three variations:
+Strict, in which deprecated elements are forbidden
+Transitional, in which deprecated elements are allowed
+Frameset, in which mostly only frame related elements are allowed.
+Initially code-named "Cougar", HTML 4.0 adopted many browser-specific element types and attributes, but also sought to phase out Netscape's visual markup features by marking them as deprecated in favor of style sheets. HTML 4 is an SGML application conforming to ISO 8879 – SGML.
+
+**HTML 5**
+Main article: HTML5
+October 28, 2014
+HTML5[26] was published as a W3C Recommendation.
+November 1, 2016
+HTML 5.1[28] was published as a W3C Recommendation.
+December 14, 2017
+HTML 5.2[31] was published as a W3C Recommendation.
+
+***THE INFO ABOVE I GOT IT FROM WIKI HERE'S THE LINK***: https://en.wikipedia.org/wiki/HTML
 
 CSS was created to separate content and presentation. Instead of using many presentational tags in HTML, designers could use CSS to control colours, fonts and layout. Modern CSS includes features like flexbox and grid, which make responsive layouts much easier to build for different screen sizes
+Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[2] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+
+CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts. This separation can improve content accessibility, since the content can be written without concern for its presentation; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
+
+Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternative formatting if the content is accessed on a mobile device.
+
+The name cascading comes from the specified priority scheme to determine which declaration applies if more than one declaration of a property match a particular element. This cascading priority scheme is predictable.
+
+The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents.
+
+In addition to HTML, other markup languages support the use of CSS including XHTML, plain XML, SVG, and XUL. CSS is also used in the GTK widget toolkit.
+
+Syntax
+CSS has a simple syntax and uses a number of English keywords to specify the names of various style properties.
+
+Style sheet
+Main article: Style sheet (web development)
+A style sheet consists of a list of rules. Each rule or rule-set consists of one or more selectors, and a declaration block.
+
+***THE INFO ABOVE I GOT IT FROM WIKI HERE'S THE LINK***: https://en.wikipedia.org/wiki/CSS
+
+
 - GitHub to store the code and documentation
 
 ## 9. HTML tags I plan to use effectively
